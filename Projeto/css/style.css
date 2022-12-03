@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+/* Cabeçalho */
+
+header {
+  text-align: center;
+  background-color: #f57800;
+  color: #2f241e;
+  padding: 15px;
+  border-bottom: 3px solid #7a3d03;
+}
+
+/* Grid de Produtos */
+
+.container {
+  background-color: #eee;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 31%;
+  display: inline-block;
+  margin: 1% 1%;
+  padding: 15px;
+}
+
+.product-image {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+#img-1 {
+  background-image: url('../img/beijinho.png');
+}
+
+#img-2 {
+  background-image: url('../img/Brownie.png');
+}
+
+#img-3 {
+  background-image: url('../img/Chocolate.png');
+}
+
+#img-4 {
+  background-image: url('../img/Maracuja.png');
+}
+
+#img-5 {
+  background-image: url('../img/Prestigio.png');
+}
+
+#img-6 {
+  background-image: url('../img/tres-leites.png');
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: rgb(233, 165, 40);
+  font-size: 24px;
+  border-left: 5px solid #7a3d03;
+  padding-left: 7px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f57800;
+  padding: 15px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #7a3d03;
+  transition: 0.5s;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f57800;
+  color: #2f241e;
+  border-top: 3px solid #7a3d03;
+  text-align: center;
+  padding: 80px;
+}
